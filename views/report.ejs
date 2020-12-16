@@ -1,0 +1,19 @@
+<%- include("_header") -%>
+<br>
+<h2>Reports</h2>
+
+<p>Select Report</p>
+
+<select name="reports" id="reports">
+    <option value="">All Customers - Sorted by Customer Last Name, First Name</option>
+    <option value="">All Customers - Sorted by Current Total Sales Decreasing</option>
+    <option value="">Three Random Customers - Promotional Giveaway (Not Repeating)</option>
+</select>
+
+<input type="submit" value="Run Report">
+
+<div id="reportresult"></div>
+
+<script src="reportajax.js"></script>
+
+<%- include("_footer") -%>
